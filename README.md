@@ -1,7 +1,7 @@
 # Cliente FTP Concurrente (Linux)
 
-**Autor:** Mateobt (CumbalM)  
-**Asignatura:** Sistemas Distribuidos  
+**Autor:** Mateo Cumbal
+**Asignatura:** Sistemas Distribuidos
 **Archivo Principal:** `CumbalM-clienteFTP.c`
 
 Este proyecto implementa un cliente FTP funcional en lenguaje C, diseñado bajo el estándar RFC 959. Su arquitectura permite manejar conexiones de control y datos separadas, destacando por su capacidad de **concurrencia**: permite subir (STOR) y descargar (RETR) archivos en segundo plano sin bloquear la terminal del usuario.
